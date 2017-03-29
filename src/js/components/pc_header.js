@@ -11,11 +11,10 @@ export default class PCHeader extends React.Component{
             current:'guonei'
         }
     }
-  handleClick = (e) => {
-    console.log('click ', e);
-    this.setState({
-      current: e.key,
-    });
+    handleClick (e){
+        this.setState({
+            current: e.key,
+        });
   }
 
 
